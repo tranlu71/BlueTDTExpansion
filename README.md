@@ -29,8 +29,9 @@ Note that the script can only recognize certain filename patterns. Edit the scri
 		format: (YYYY)-(MM)-(DD) (hh).(mm).(ss).(measurement)_(slice number) 
 			slice number could be '0' (slice D1), '1' (slice 1), '2' (slice 2)
 ## How to run the program
+* Upzip the DEMO folder
 * Install python3 and clone the repository to your local machine
-* In the python script, change the 'PIG_folder' value to folder path of the folder that contains the CAT exported files
+* In the python script, change the 'PIG_folder' value to folder path of the folder that contains the 'PIG-demo' folder
 * In terminal, navigate to the repository, type "bluelineanalyzer.py" to run the script
 * The script will export the csv files, each corresponds to a trajectory and contains (elapsed time, max distance) for all the slices
 
